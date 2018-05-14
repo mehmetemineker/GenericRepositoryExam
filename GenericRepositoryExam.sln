@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryExam.Data", "GenericRepositoryExam.Data\GenericRepositoryExam.Data.csproj", "{E5562C28-317C-4011-A973-AEDBBBA8D55C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryExam.WebUI", "GenericRepositoryExam.WebUI\GenericRepositoryExam.WebUI.csproj", "{505899B6-5457-4729-9EFB-86C75DCC6825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryExam.Core", "GenericRepositoryExam.Core\GenericRepositoryExam.Core.csproj", "{079D02A0-61D0-481B-86C2-703B763A473C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryExam.DataAccess", "GenericRepositoryExam.DataAccess\GenericRepositoryExam.DataAccess.csproj", "{D0A83D86-A36D-4F3B-B438-D341C40BC230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryExam.Entity", "GenericRepositoryExam.Entity\GenericRepositoryExam.Entity.csproj", "{D65228CF-9AF2-4E48-A3D0-1D434AD8AF92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryExam.Business", "GenericRepositoryExam.Business\GenericRepositoryExam.Business.csproj", "{58CF01C3-4B23-49EC-8AF5-BF12B7DF14CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E5562C28-317C-4011-A973-AEDBBBA8D55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5562C28-317C-4011-A973-AEDBBBA8D55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5562C28-317C-4011-A973-AEDBBBA8D55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5562C28-317C-4011-A973-AEDBBBA8D55C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{505899B6-5457-4729-9EFB-86C75DCC6825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{505899B6-5457-4729-9EFB-86C75DCC6825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{505899B6-5457-4729-9EFB-86C75DCC6825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{505899B6-5457-4729-9EFB-86C75DCC6825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079D02A0-61D0-481B-86C2-703B763A473C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079D02A0-61D0-481B-86C2-703B763A473C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079D02A0-61D0-481B-86C2-703B763A473C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079D02A0-61D0-481B-86C2-703B763A473C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A83D86-A36D-4F3B-B438-D341C40BC230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A83D86-A36D-4F3B-B438-D341C40BC230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A83D86-A36D-4F3B-B438-D341C40BC230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A83D86-A36D-4F3B-B438-D341C40BC230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65228CF-9AF2-4E48-A3D0-1D434AD8AF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65228CF-9AF2-4E48-A3D0-1D434AD8AF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65228CF-9AF2-4E48-A3D0-1D434AD8AF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65228CF-9AF2-4E48-A3D0-1D434AD8AF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CF01C3-4B23-49EC-8AF5-BF12B7DF14CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CF01C3-4B23-49EC-8AF5-BF12B7DF14CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CF01C3-4B23-49EC-8AF5-BF12B7DF14CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CF01C3-4B23-49EC-8AF5-BF12B7DF14CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
